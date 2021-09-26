@@ -2,5 +2,5 @@
 	path = powerlevel10k
 	url = https://github.com/romkatv/powerlevel10k.git
 [submodule "dwm"]
-	path = dwm
+	path = .dwm
 	url = https://github.com/FFuuZZuu/dwm
