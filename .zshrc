@@ -1,3 +1,12 @@
+#          _              
+#         | |             
+#  _______| |__  _ __ ___ 
+# |_  / __| '_ \| '__/ __|
+#  / /\__ \ | | | | | (__ 
+# /___|___/_| |_|_|  \___|
+#
+#
+
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -16,6 +25,10 @@ bindkey -v
 zstyle :compinstall filename '/home/fuzu/.zshrc'
 
 alias sudo='doas'
+alias cls='clear'
+alias cat='bat --theme=base16'
+alias grep='grep --color=auto'
+alias ls='ls -a --color=auto'
 
 autoload -Uz compinit
 compinit
