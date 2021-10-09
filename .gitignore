@@ -2,3 +2,17 @@
 .config/pulse
 .config/htop
 .config/discord
+.config/spotifyd
+.config/systemd
+.config/spotify-tui
+.config/qBittorrent
+.config/pavucontrol.ini
+.config/mimeapps.list
+.config/libreoffice
+.config/kalker
+.config/google-chrome
+.config/dconf
+.config/cef_user_data
+.config/balena-etcher-electron
+.config/QtProject.conf
+.config/Insomnia

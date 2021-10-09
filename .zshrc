@@ -35,5 +35,8 @@ compinit
 # End of lines added by compinstall
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 
+export PATH=$PATH:/home/fuzu/.cargo/bin
+export EDITOR=nvim
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
