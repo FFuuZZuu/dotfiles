@@ -44,6 +44,8 @@
 @import url("https://discordstyles.github.io/AdjustableServerWidth/base.css");
 @import url("https://discordstyles.github.io/Slate/dist/Slate.css");
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400&display=swap');
+
 /*
 ====================================================================================
                                   Basic Variables
@@ -69,3 +71,35 @@
 ====================================================================================
 */
 
+* {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* Everforest palette */
+html:root {
+  --slate-palette: "Everforest";
+  --toolbar-background-alt:#374247;
+  --toolbar-background:#374247;
+  --toolbar-background-hover:#525c62;
+  --toolbar-background-active:#374247;
+  --toolbar-search-background:#404c51;
+  --toolbar-border:#374247;
+  --toolbar-text-muted:#859289;
+  --toolbar-text-normal:#d3c6aa;
+  --accent:117, 137, 100;
+}
+
+html.theme-dark,
+html.theme-dark body #app-mount .theme-light .root-1gCeng,
+html.theme-dark body .force-theme.theme-light {
+  --background-alt:var(--background-light);
+  --background-light:#2f383e; /* 4a555b */
+  --background-dark:#2f383e; /* 2f383e */
+  --background:#374247;
+  --base-border:#374247;
+  --text-normal:#d3c6aa;
+  --text-muted:#859289;
+  --guilds-background:#525c62;
+  --background-modifier-hover:#2f383e;
+  --background-modifier-active:#525c62;
+}

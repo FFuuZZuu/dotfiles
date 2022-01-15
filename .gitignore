@@ -16,3 +16,4 @@
 .config/balena-etcher-electron
 .config/QtProject.conf
 .config/Insomnia
+.config/nvim/plugged

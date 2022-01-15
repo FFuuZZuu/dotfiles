@@ -31,6 +31,8 @@ alias grep='grep --color=auto'
 alias ls='ls -a --color=auto'
 
 autoload -Uz compinit
+autoload -U compinit && compinit -u
+[[ -s /home/fuzu/.autojump/etc/profile.d/autojump.sh ]] && source /home/fuzu/.autojump/etc/profile.d/autojump.sh
 compinit
 # End of lines added by compinstall
 source ~/powerlevel10k/powerlevel10k.zsh-theme

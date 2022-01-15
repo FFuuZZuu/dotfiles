@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --no-fehbg --bg-scale '/home/fuzu/.bg' 
+feh --no-fehbg --bg-scale '/home/fuzu/ImageGoNord/bg.png' 

@@ -7,7 +7,7 @@
         "mediaKeys": false
     },
     "appearance": {
-        "twentyFourHour": false,
+        "twentyFourHour": true,
         "hideGiftButton": false,
         "hideGIFButton": false,
         "minimalMode": false,
